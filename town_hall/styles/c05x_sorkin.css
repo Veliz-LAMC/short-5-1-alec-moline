@@ -1,4 +1,73 @@
+blockquote {
+    margin: 0;
+}
+
 body {
-	font-family: Arial, Helvetica, sans-serif;
+    background: white;
+	border: 7px double blue;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    width: 650px;
+}
+
+cite {
+    color: blue;
+    font-style: normal;
+}
+
+footer {
+    border-top: 3px solid blue;
+    font-size: 90%;
+    font-weight: bold;
+    margin: 1rem;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 125%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h3 {
+    font-size: 115%;
+}
+
+html {
+    background: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    float: left;
+    margin-right: 1.3rem;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+main {
+    padding: 0.5em 1.5em 1.5em 1.5em;
+}
+
+p {
+
+}
+
+p:has(cite) {
+    text-align: right;
+    margin-bottom: 0.75em;
+    margin-top: 0.3em;
+} 
+
+ul {
+
+    margin-top: 0.3em;
 }
